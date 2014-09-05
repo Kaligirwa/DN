@@ -64,6 +64,8 @@ void read_files(char* file_names[], int num_files) {
         exit (1);
     }
     rewind(outFile);
+    char path[6] = "DATA/";
+    char temp_file [100];
     for (int i = 0; i < num_files; i++)
     {
         //open the current file
@@ -71,8 +73,10 @@ void read_files(char* file_names[], int num_files) {
         printf ("***************************\n\n");
         fprintf (outFile, "FILE[%d]: %s\n", i+1, file_names[i]);
         fprintf (outFile, "***************************\n\n");
-        inFile = fopen (file_names[i], "rb");
-        
+       	strcat (temp_file,path);
+	strcat (temp_file,file_names[i]);
+	inFile = fopen (temp_file, "rb");
+	memset (temp_file, 0, sizeof temp_file);
         //test for errors
         if (inFile == NULL) {
             printf ("File error: %s!\n", file_names[i]);
@@ -97,8 +101,6 @@ void read_files(char* file_names[], int num_files) {
         while (inFile && ftell(inFile) < fSize) {
             frame->parse(inFile);
             frame->display(outFile);
-            //position = frame->read_rest(inFile);
-            
         }
      
         delete frame;
