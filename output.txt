@@ -1,0 +1,291 @@
+FILE[1]: fin_ack.bin
+***************************
+
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	13312
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.94.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+FILE[2]: http_ok.bin
+***************************
+
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	26627
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	226.43.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	22-2d-2f-2f-57-33
+ETHER:	Source		:	43-2f-2f-44-54-44 
+ETHER:	Ethertype	:	4820
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	5 
+IP:	Header length	=	4 bytes
+IP:	Type of service	=	0x4d
+IP:	Total length	=	70
+IP:	Identification	=	11827
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0069
+IP:	Header checksum	=	616e
+IP:	Source address	=	108.47.47.69
+IP:	Destination address=	78.34.62.60
+
+ 
+FILE[3]: http_request.bin
+***************************
+
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-02-00-00-00-00 
+ETHER:	Ethertype	:	0100
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	41728
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	150.215.192.168
+IP:	Destination address=	3.1.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	67-65-6e-74-3a-20
+ETHER:	Source		:	57-67-65-74-2f-31 
+ETHER:	Ethertype	:	312e
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	3 
+IP:	Header length	=	3 bytes
+IP:	Type of service	=	0x2e
+IP:	Total length	=	117
+IP:	Identification	=	27688
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0078
+IP:	Header checksum	=	672d
+IP:	Source address	=	110.117.41.13
+IP:	Destination address=	10.65.99.99
+
+ 
+FILE[4]: stream_in_session.bin
+***************************
+
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	17664
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.84.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	22784
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.63.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	22784
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.62.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	23552
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.58.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	0a-63-68-65-6b-00
+ETHER:	Source		:	00-00-00-00-00-00 
+ETHER:	Ethertype	:	0000
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	0 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	85
+IP:	Identification	=	21845
+IP:	Flags	=	0x07
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	28672		=	last flag
+IP:	Protocol	=	0055
+IP:	Header checksum	=	00d5
+IP:	Source address	=	0.0.0.0
+IP:	Destination address=	1.0.0.0
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	13824
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	229.94.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+FILE[5]: syn.bin
+***************************
+
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	55-d5-00-00-00-00
+ETHER:	Source		:	00-02-00-00-00-00 
+ETHER:	Ethertype	:	0100
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	0 
+IP:	Header length	=	8 bytes
+IP:	Type of service	=	0x00
+IP:	Total length	=	64
+IP:	Identification	=	15360
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0000
+IP:	Header checksum	=	0640
+IP:	Source address	=	151.64.192.168
+IP:	Destination address=	3.1.192.168
+
+ 
