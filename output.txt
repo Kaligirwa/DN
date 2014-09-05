@@ -1,11 +1,11 @@
-FILE[1]: syn.bin
+FILE[1]: http_ok.bin
 ***************************
 
 ETHER:	-----Ether Header-----
 ETHER:	Packet Size	:	22 bytes 
 ETHER:	Destination	:	55-d5-00-00-00-00
-ETHER:	Source		:	00-02-00-00-00-00 
-ETHER:	Ethertype	:	0100
+ETHER:	Source		:	00-01-00-00-00-00 
+ETHER:	Ethertype	:	0200
 ETHER:		
  
 IP:	-----IP Header-------
@@ -13,14 +13,37 @@ IP:	Version		=	0
 IP:	Header length	=	8 bytes
 IP:	Type of service	=	0x00
 IP:	Total length	=	64
-IP:	Identification	=	15360
+IP:	Identification	=	26627
 IP:	Flags	=	0x06
 		.0...	...	=	do not fragment
 		..1..	...	=	last fragment
 IP:	24576		=	last flag
 IP:	Protocol	=	0000
 IP:	Header checksum	=	0640
-IP:	Source address	=	151.64.192.168
-IP:	Destination address=	3.1.192.168
+IP:	Source address	=	226.43.192.168
+IP:	Destination address=	3.4.192.168
+
+ 
+ETHER:	-----Ether Header-----
+ETHER:	Packet Size	:	22 bytes 
+ETHER:	Destination	:	22-2d-2f-2f-57-33
+ETHER:	Source		:	43-2f-2f-44-54-44 
+ETHER:	Ethertype	:	4820
+ETHER:		
+ 
+IP:	-----IP Header-------
+IP:	Version		=	5 
+IP:	Header length	=	4 bytes
+IP:	Type of service	=	0x4d
+IP:	Total length	=	70
+IP:	Identification	=	11827
+IP:	Flags	=	0x06
+		.0...	...	=	do not fragment
+		..1..	...	=	last fragment
+IP:	24576		=	last flag
+IP:	Protocol	=	0069
+IP:	Header checksum	=	616e
+IP:	Source address	=	108.47.47.69
+IP:	Destination address=	78.34.62.60
 
  
